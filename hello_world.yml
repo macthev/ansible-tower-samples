@@ -6,6 +6,6 @@
         msg: "Hello World {{ opt1 }}!"
     - name: stat
       stat:
-        path: "/tmp/x"
+        path: "/root/x"
 
 

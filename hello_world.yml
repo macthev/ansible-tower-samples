@@ -1,5 +1,5 @@
 - name: Hello World Sample
-  hosts: all
+  hosts: gpfsansible
   tasks:
     - name: Hello Message
       debug:

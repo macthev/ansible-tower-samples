@@ -6,6 +6,6 @@
         msg: "Hello World {{ opt1 }}!"
     - name: stat
       stat:
-        path: "/root/Spectrum_Scale_Data_Management-5.0.5.3-x86_64-Linux-install"
+        path: "/tmp/x"
 
 

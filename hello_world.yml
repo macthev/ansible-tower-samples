@@ -4,6 +4,12 @@
     - name: Hello Message
       debug:
         msg: "Hello World {{ opt1 }}!"
+    - name: shell
+      command: /usr/bin/id
+      register: who
+    - name: debug
+      debug:
+        var: who
     - name: stat
       stat:
         path: "/root/x"

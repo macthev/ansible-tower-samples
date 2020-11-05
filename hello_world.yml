@@ -1,5 +1,5 @@
 - name: Hello World Sample
-  hosts: gpfsansible
+  hosts: ansible
   tasks:
     - name: Hello Message
       debug:
